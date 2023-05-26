@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "poppins" , sans-serif;
+    background: #0B0C10;
+    color: #fff;
 }
 a{
     text-decoration: none;
 }
 nav{
-    padding: 0px 40px;
+    padding: 5px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo a{
     font-size: 34px;
-    color: #000;
-    font-weight: 600
+    font-weight: 600;
+    color: #66FCF1;
+    transition: .3s;
+}
+.logo a:hover{
+    color: #45A29E;
 }
 .logo a span{
     color: blue;
@@ -32,7 +37,39 @@ nav ul li {
     margin: 0 10px;
 }
 nav ul li a{
-    color: #000;
     font-size: 16px;
     letter-spacing: -1px;
+    color: #66FCF1;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: #45A29E;
+}
+.container{
+    text-align: center;
+    margin: 20px auto;
+}
+.container h4{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: -59px;
+}
+.container h1{
+    color: #66FCF1;
+    font-size: 140px;
+    height: fit-content;
+}
+.container p{
+    max-width: 500px;
+    margin: auto;
+}
+.btn-1{
+    display: block;
+    margin: 30px auto;
+    background: transparent;
+    border: 3px solid #66FCF1;
+    padding: 10px 30px;
+    margin-top: 50px;
 }
